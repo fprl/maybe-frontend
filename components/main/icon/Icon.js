@@ -10,26 +10,26 @@ import Savings from '../../../public/icons/savings.svg'
 const Icon = ({ type, open }) => {
   if (type === 'estate') {
     return <span className="flex items-center justify-center rounded-lg bg-teal bg-opacity-10 w-9 h-9">
-      <Estate />
+      <Estate aria-hidden="true" />
     </span>
   }
   if (type === 'medical') {
     return <span className="flex items-center justify-center rounded-lg bg-yellow bg-opacity-10 w-9 h-9">
-      <Medical />
+      <Medical aria-hidden="true" />
     </span>
   }
   if (type === 'retirement') {
     return <span className="flex items-center justify-center rounded-lg bg-orange bg-opacity-10 w-9 h-9">
-      <Retirement />
+      <Retirement aria-hidden="true" />
     </span>
   }
   if (type === 'savings') {
     return <span className="flex items-center justify-center rounded-lg bg-pink bg-opacity-10 w-9 h-9">
-      <Savings />
+      <Savings aria-hidden="true" />
     </span>
   }
 
-  return <ChevronDown className={`${open ? 'transform rotate-180' : ''} justify-self-end`} />
+  return <ChevronDown className={`${open ? 'transform rotate-180' : ''} justify-self-end`} aria-hidden="true" />
 }
 
 Icon.propTypes = {
