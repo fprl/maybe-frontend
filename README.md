@@ -1,7 +1,9 @@
 <!-- REPO TITLE -->
 <br />
 <p align="center">
-  <img src="readme/logo.png" alt="Logo" height="80">
+  <a href="#">
+    <img src="readme/logo.png" alt="Logo" height="80">
+  </a>
 
   <h4 align="center">Maybe | UI Engineer Coding Challengue</h4>
   <p align="center">
