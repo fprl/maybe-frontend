@@ -1,16 +1,29 @@
 import Head from 'next/head'
 
-export default function Home() {
+import Header from '../components/header/Header'
+import Main from '../components/main/Main'
+
+export default function Home({ tips }) {
   return (
-    <div>
+    <>
       <Head>
         <title>Coding challenge: Frontend - Maybe</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full my-8 text-center">
-        <p>Now it's your turn!</p>
-      </main>
-    </div>
+      <Header />
+      <Main tips={tips} />
+    </>
   )
+}
+
+export async function getStaticProps() {
+  const res = await fetch('http://localhost:3000/api/tips')
+  const tips = await res.json()
+
+  return {
+    props: {
+      tips,
+    },
+  }
 }

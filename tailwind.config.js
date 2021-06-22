@@ -2,7 +2,15 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        monument: ['Monument'],
+        generalsans: ['General Sans'],
+      },
+      gridTemplateColumns: {
+        tips: '1fr 8fr 1fr'
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
