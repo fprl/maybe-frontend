@@ -36,7 +36,7 @@ To get a local copy up and running follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/francoromanol/finance-frontend.git
+   git clone https://github.com/francoromanol/maybe-frontend.git
    ```
 2. Install NPM packages
    ```sh
