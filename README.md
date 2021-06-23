@@ -1,9 +1,7 @@
 <!-- REPO TITLE -->
 <br />
 <p align="center">
-  <div align="center">
-    <img src="readme/logo.png" alt="Logo" height="80">
-  </div>
+  <img src="readme/logo.png" alt="Logo" height="80">
 
   <h4 align="center">Maybe | UI Engineer Coding Challengue</h4>
   <p align="center">
@@ -52,17 +50,22 @@ Once started, the app should be available via [localhost:3000](http://localhost:
 
 &nbsp;
 ### Deliverables
-1. **What are some edge-cases you'd consider before shipping this feature?:**
+* This repository (private and shared).
+* [Video screen recorded and narrated project](https://www.loom.com/share/f37889ae9e024bcfaf9dcfbeffddfd09).
+* The questions:
+**What are some edge-cases you'd consider before shipping this feature?:**
   Before shipping, I would consider common Accessibility issues like Semantic structure – for proper readability to screen readers – and Keyboard accesibility. I would also check the responsive edge cases, e.g the icons or title gets to big to the container.
-&nbsp;  
-2. **Which of your skills that you expect to use in this role do you feel weren't highlighted in this project?:**
+  **Which of your skills that you expect to use in this role do you feel weren't highlighted in this project?:**
   I love working on the detail so I probably would have worked a bit more on animations or color changes. I would also have worked more time on the responsive.
-&nbsp;
-3. **What's important for remote engineering teams to work well?:**
+  **What's important for remote engineering teams to work well?:**
   I think the important thing in an asynchronous company is organization and communication. Write and communicate correctly, as if we were writing technical documentation about a project or a blog post to understand each other, that is, to be concise, direct and very visual.
   Maybe this last point has a lot to do with my other career (architecture and design), but I think the visual is a key point of asynchronous communication.
+
+
 &nbsp;
-4. [Video](https://www.loom.com/share/f37889ae9e024bcfaf9dcfbeffddfd09)
+### Notes
+I want to clarify that I worked with only one screen because I had problems sharing both at the same time and that after recording the video I added aria-hidden to the icons as well as focus and hover details to the accordion button (nothing else).
+
 
 &nbsp;
 #### Thank you for your time!
