@@ -5,7 +5,7 @@ import Icon from './icon/Icon'
 
 const Main = ({ tips }) => {
   return (
-    <main className="flex justify-center w-full">
+    <main className="flex justify-center w-full pb-12">
       <ul className="flex flex-col max-w-xl gap-y-4">
         {tips.map(tip => {
           return (
