@@ -14,7 +14,7 @@ const Main = ({ tips }) => {
                 {({ open }) => (
                   <>
                     <h3>
-                      <Disclosure.Button className="grid items-center w-full grid-cols-tips gap-x-4">
+                      <Disclosure.Button className="grid items-center w-full rounded-lg grid-cols-tips gap-x-4 hover:bg-gray-700 focus:outline-none focus:ring-gray focus:ring-1 focus:ring-opacity-85">
                         <Icon type={tip.type} />
                         <span className="col-start-2 col-end-3 font-semibold text-left justify-self-start font-generalsans">{tip.title}</span>
                         <Icon open={open} />
