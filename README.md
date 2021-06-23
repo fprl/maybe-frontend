@@ -63,7 +63,11 @@ Once started, the app should be available via [localhost:3000](http://localhost:
 
 ### Notes
 * I worked with only one screen because I had problems sharing both at the same time.
-* After recording the video I added aria-hidden to the icons as well as focus and hover details to the accordion button and I removed the padding from the \<li> element and added to the \<button> so that the button takes all the width and height of its container (nothing else).
+* After recording the video I work on a few details (10 min aprox.):
+  * added aria-hidden to the icons
+  * added padding-bottom to the main container.
+  * added focus and hover details to the accordion button
+  * removed the padding from the \<li> element and added to the \<button> so that the button takes all the width and height of its container 
 
 
 ### Thank you for your time!
