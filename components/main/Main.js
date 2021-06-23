@@ -9,12 +9,12 @@ const Main = ({ tips }) => {
       <ul className="flex flex-col max-w-xl gap-y-4">
         {tips.map(tip => {
           return (
-            <li key={tip.title} className="flex flex-col px-6 py-8 bg-gray-900 rounded-3xl gap-y-4">
+            <li key={tip.title} className="flex flex-col bg-gray-900 rounded-3xl gap-y-4">
               <Disclosure>
                 {({ open }) => (
                   <>
                     <h3>
-                      <Disclosure.Button className="grid items-center w-full rounded-lg grid-cols-tips gap-x-4 hover:bg-gray-700 focus:outline-none focus:ring-gray focus:ring-1 focus:ring-opacity-85">
+                      <Disclosure.Button className="grid items-center w-full px-6 py-8 rounded-3xl grid-cols-tips gap-x-4 hover:bg-gray-700 hover:bg-opacity-70 focus:outline-none focus:ring-gray focus:ring-1 focus:ring-opacity-85">
                         <Icon type={tip.type} />
                         <span className="col-start-2 col-end-3 font-semibold text-left justify-self-start font-generalsans">{tip.title}</span>
                         <Icon open={open} />
@@ -28,7 +28,7 @@ const Main = ({ tips }) => {
                       leaveFrom="transform scale-500 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel className="grid w-full grid-cols-tips gap-x-4">
+                      <Disclosure.Panel className="grid w-full px-6 pb-8 grid-cols-tips gap-x-4">
                         <p className="col-start-2 col-end-3 text-white justify-self-start text-opacity-80">
                           {tip.description}
                         </p>
