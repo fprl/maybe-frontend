@@ -48,7 +48,6 @@ To get a local copy up and running follow these steps:
 Once started, the app should be available via [localhost:3000](http://localhost:3000)
 
 
-&nbsp;
 ### Deliverables
 * This repository (private and shared).
 * [Video screen recorded and narrated project](https://www.loom.com/share/f37889ae9e024bcfaf9dcfbeffddfd09).
@@ -62,13 +61,12 @@ Once started, the app should be available via [localhost:3000](http://localhost:
   Maybe this last point has a lot to do with my other career (architecture and design), but I think the visual is a key point of asynchronous communication.
 
 
-&nbsp;
 ### Notes
-I want to clarify that I worked with only one screen because I had problems sharing both at the same time and that after recording the video I added aria-hidden to the icons as well as focus and hover details to the accordion button (nothing else).
+* I worked with only one screen because I had problems sharing both at the same time.
+* After recording the video I added aria-hidden to the icons as well as focus and hover details to the accordion button and I removed the padding from the \<li> element and added to the \<button> so that the button takes all the width and height of its container (nothing else).
 
 
-&nbsp;
-#### Thank you for your time!
+### Thank you for your time!
 Hello! I hope these notes are useful for you to read the exercise. If there is something that is not very clear, ask me and I will try to clarify it. I would love to receive your feedback!
 
 [Franco Romano Losada](mailto:francoromano1994@gmail.com)
